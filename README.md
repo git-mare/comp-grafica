@@ -1,1 +1,0 @@
-# Conteúdos de computação gráfica
