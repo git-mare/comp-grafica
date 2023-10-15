@@ -24,10 +24,6 @@ function love.load()
     -- </Radio
     local musicFolder = "sons/radio"
     musicPlaylist = getMusic(musicFolder)
-
-    -- if #musicPlaylist > 0 then
-    --     loadCurrentMusic()
-    -- end
     -- Radio />
 
     -- </ Efeitos sonoros
@@ -119,7 +115,7 @@ function love.update(dt)
     if love.keyboard.isDown("t") then
         currentMusicIndex = currentMusicIndex + 1
         if currentMusicIndex > #musicPlaylist then
-            currentMusicIndex = 1  -- Volte para a primeira música quando todas terminarem
+            currentMusicIndex = 1
         end
         loadCurrentMusic()
 
