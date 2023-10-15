@@ -372,7 +372,7 @@ function stopCurrentMusic()
     if musicBackground then
         musicBackground:stop()
     end
-    musicFileName = "Música interrompida. Tecle T para tocar."
+    musicFileName = "Musica interrompida. Tecle T para tocar."
 end
 
 function getMusic(folderPath)
